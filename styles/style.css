@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+    font-family: 'Quicksand', sans-serif;
+}
+
+ body {
+    width: 100%;
+    height: 150vh;
+}
+
+.wrapper {
+    width: 100%;
+    background-image: url(../assets/PEPSI-Matryo_001.jpg);
+    height: 900px;
+    background-position: center;
+    position: relative
+}
+
+.wrapper header{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    background: 0 0
+}
+
+.logo{
+    margin-left: 100px;
+    width: 70px;
+    height: 80px;
+    position: relative
+}
+
+.redBox{
+    right: 0;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: red;
+    border: 3px solid #fff
+}
+
+.whiteBox{
+    top: 42px;
+    right: 37px;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background: 0 0;
+    border: 3px solid #fff
+}
+
+.logo_name{
+    color: #fff;
+    font-weight: 700;
+    font-size: 60px;
+    padding-left: 15px;
+    font-style: oblique
+}
+
+.menu{
+    margin-left: 240px;
+    width: 750px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.menu_p{
+    cursor: pointer;
+    color: #9dbadf;
+    font-weight: 700;
+    font-size: 22px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.btn{
+    width: 190px;
+    height: 45px;
+    color: #fff;
+    background: 0 0;
+    border: 3px solid #fff;
+    border-radius: 80px;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 100px;
+    cursor: pointer;
+    margin-right: 22px;
+    border: 1px solid #c4c4c4;
+}
+
+.big_div{
+    width: 520px;
+    height: 500px;
+    background: 0 0;
+    margin-top: 150px;
+    margin-left: 250px
+}
+
+.allP{
+    color: #fff;
+    font-weight: 700;
+    font-size: 100px
+}
+
+.allinfo{
+    padding-top: 30px;
+    color: #9dbadf;
+    font-size: 20px;
+    font-weight: 700
+}
+
+.view_products{
+    width: 240px;
+    height: 45px;
+    color: #fff;
+    background: 0 0;
+    border: 3px solid #fff;
+    border-radius: 80px;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 40px;
+    cursor: pointer
+}
+
+.social-network-div-icons-container-flex{
+    position: absolute;
+    width: 66px;
+    height: 400px;
+    background: 0 0;
+    top: 500px;
+    left: 50px
+}
+
+.icon{
+    cursor: pointer;
+    width: 28px;
+    margin-left: 13px;
+    margin-top: 15px;
+    margin-bottom: 45px
+}
+
+.wrapper-two{
+    width: 100%;
+    height: 330px;
+    position: relative;
+    display: flex
+}
+
+.cont{
+    width: 48%;
+    height: 100%;
+    background-position: center;
+    background-image: url(../assets/photo-1629203849820-fdd70d49c38e.avif);
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 10px 30px
+}
+
+.threewrap{
+    width: 89px;
+    height: 89px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -89px
+}
+
+.left{
+    background-color: #2560b7;
+    right: 0
+}
+
+.right{
+    background-color: #226ec9;
+    right: 89px
+}
+
+.icoon{
+    width: 40px;
+    cursor: pointer
+}
+.never_p{
+    padding-top: 60px;
+    padding-left: 60px;
+    font-weight: 700;
+    font-size: 30px
+}
+
+.enjoy{
+    font-size: 18px;
+    color: grey;
+    padding-left: 60px;
+    padding-top: 25px
+}
+
+.sports{
+    padding-top: 10px;
+    font-size: 18px;
+    color: grey;
+    padding-left: 60px
+}
+
+.diet{
+    position: absolute;
+    top: -27%;
+    right: 26%;
+    width: 26%;
+    height: 127%;
+    background-color: #000;
+    box-shadow: 0 10px 30px
+}
+
+.diet-pepsi{
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 120px;
+    padding-left: 80px
+}
+
+.a-not{
+    color: grey;
+    padding-left: 80px;
+    padding-top: 30px;
+    font-size: 18px
+}
+
+.drink-produced{
+    color: grey;
+    padding-left: 80px;
+    padding-top: 10px;
+    font-size: 18px
+}
+
+.process{
+    width: 120px;
+    height: 120px;
+    background-color: #3688dc;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 23%;
+    top: -47%;
+    z-index: 100;
+    box-shadow: 0 15px 35px
+}
+
+.start{
+    cursor: pointer;
+    width: 35px;
+    margin-left: 10px;
+}
+
+.pepsiHistory{
+    position: absolute;
+    right: 0;
+    top: -27%;
+    width: 26%;
+    height: 127%;
+    background-color: #3688dc;
+    box-shadow: 0 10px 30px
+}
+
+.history-block-p{
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 120px;
+    padding-left: 80px
+}
+
+.history-p-two{
+    color: #fff;
+    padding-left: 80px;
+    padding-top: 30px;
+    font-size: 18px
+}
+
+.history-p-all-three{
+    color: #fff;
+    padding-left: 80px;
+    padding-top: 10px;
+    font-size: 18px
+}
+
+.notification{
+    position: relative;
+    display: inline-block;
+    max-width: 300px;
+    padding: 20px 15px;
+    border-radius: 4px;
+    background-color: #141619;
+    color: #f6f5f9;
+    box-shadow: 0 1px 10px
+    rgba(0, 0, 0, .1);
+    transform: translateY(30px);
+    opacity: 0;
+    visibility: hidden;
+    left: 660px;
+    animation: fade 4s linear forwards;
+}
+
+.progress{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    width: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, #529bdb, #3250bf);
+    border-radius: 4px;
+    animation: progress 3s .25s linear forwards;
+}
+
+@keyframes fade {
+    5% {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0px);
+    }
+    90%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    95%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+}
+
+@keyframes progress {
+    to{
+        width: calc(100% - 10px);
+    }
+}

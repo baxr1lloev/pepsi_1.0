@@ -1,0 +1,12 @@
+@media only screen and (max-width: 300px) {
+    body{
+        width: 500px;
+        padding-top: 60px;
+    }
+    .wrapper{
+        width: 100%;
+        object-fit: cover;
+        background-color: aqua;
+        position: relative;
+    }
+}    
